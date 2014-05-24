@@ -1,6 +1,7 @@
 # compute the inverse of the square matrix returned by makeCacheMatrix
 # If the inverse has already been calculated (and the matrix has not changed)
-# then the cachesolve should retrieve the inverse from the cache
+# then the cachesolve retrieve the inverse from the cache
+# assume that the matrix supplied is always invertible
 
 cacheSolve <- function(x, ...) {
     # get the cached value of the inverse
